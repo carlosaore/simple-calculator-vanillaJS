@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+    <body>
+        <div id="calc-body">
+
+            <form method="GET">
+                <input type="number" id="numberA" placeholder="0" onkeydown="return event.keyCode !== 69">
+                <input type="number" id="numberB" placeholder="0" onkeydown="return event.keyCode !== 69">
+            </form>
+
+            <div>
+                <button type="button" onclick=sum()>+</button>
+                <button type="button" onclick=substraction()>-</button>
+                <button type="button" onclick=product()>x</button>
+                <button type="button" onclick=divide()>/</button>
+            </div>
+        
+            <div id="result"></div>
+        </div>
+    <script src="script.js"></script>
+    </body>
+</html>
