@@ -8,7 +8,7 @@ Input two numbers then choose an operator to see the result.
 
 This was meant to be a simple learning exercise to practice injecting content into the HTML DOM without any fancy library or framework like React.
 
-The logic is handled by 5 very simple JavaScript functions: one for each operation (+, -, x, and /), and one for displaying the results.
+The logic is handled by 4 very simple JavaScript functions:, one for each operation (`+`, `-`, `x`, and `/`).
 
 ## Example:
 

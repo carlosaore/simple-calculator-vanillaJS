@@ -57,23 +57,4 @@ function divide() {
   } else {
     document.getElementById("result").innerHTML = Number(numberA) / Number(numberB);
   }  
-}
-
-let calculateButton = document.getElementById("calculate");
-calculateButton.addEventListener("click", function(){
-  const numberC = document.getElementById("numberC").value;
-  const numberD = document.getElementById("numberD").value;
-  const operator = document.getElementById("operator").value;
-  const result2 = document.getElementById("result2");
-  switch(operator) {
-    case "+":
-      result2.innerHTML = Number(numberC) + Number(numberD);
-      break;
-    case "-":
-      result2.innerHTML = Number(numberC) - Number(numberD);
-      break;
-    default:
-      result2.innerHTML ="Invalid operator";
-  }
-  
-});
+};
