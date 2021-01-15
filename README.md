@@ -2,7 +2,7 @@
 > A very simple calculator app to showcase some vanilla HTML/JS/CSS skills.\
 Input two numbers then choose an operator to see the result.
 
-## [View demo](https://nifty-torvalds-47b1b1.netlify.app/)
+[View demo](https://nifty-torvalds-47b1b1.netlify.app/)
 
 ## What is this?
 

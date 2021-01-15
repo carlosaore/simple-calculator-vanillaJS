@@ -49,4 +49,11 @@ button {
     align-items: center;
 }
 
+@media (min-width: 600px) {
+    #calc-body {
+        width: 50%;
+        height: 50%;
+        margin: auto;
+    }
 
+}
