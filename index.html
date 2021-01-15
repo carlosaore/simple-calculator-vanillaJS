@@ -8,13 +8,11 @@
 </head>
     <body>
         <div id="calc-body">
-
-            <form method="GET">
+            <form class="flex-container" method="GET">
                 <input type="number" id="numberA" placeholder="0" onkeydown="return event.keyCode !== 69">
                 <input type="number" id="numberB" placeholder="0" onkeydown="return event.keyCode !== 69">
-            </form>
-
-            <div>
+            </form>    
+            <div class="flex-container">
                 <button type="button" onclick=sum()>+</button>
                 <button type="button" onclick=substraction()>-</button>
                 <button type="button" onclick=product()>x</button>
